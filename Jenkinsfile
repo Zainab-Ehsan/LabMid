@@ -80,7 +80,7 @@ pipeline {
                     set -eu
                     curl --fail --silent --show-error \
                         --retry 10 --retry-delay 3 \
-                        http://localhost:8081/ \
+                        http://localhost:8082/ \
                         -o /dev/null
 
                     echo "Application HTTP smoke test passed."
